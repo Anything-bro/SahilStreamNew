@@ -55,7 +55,7 @@ async def start(b, m):
         except UserNotParticipant:
              await StreamBot.send_photo(
                 chat_id=m.chat.id,
-                photo="https://telegra.ph/file/12ac341f206163756bfa8.jpg",
+                photo="https://te.legra.ph/Bot-05-03-11",
                 caption="<i>𝙹𝙾𝙸𝙽 CHANNEL 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴🔐</i>",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -76,8 +76,8 @@ async def start(b, m):
             return
     await StreamBot.send_photo(
         chat_id=m.chat.id,
-        photo ="https://telegra.ph/file/19eeb26fa2ce58765917a.jpg",
-        caption =f'Hi {m.from_user.mention(style="md")}!,\nI am Telegram File Stream Bot By @itz_sahil_official with Channel support.\nSend me any file and get a direct download link and streamable link.!',
+        photo ="https://te.legra.ph/Bot-05-03-11",
+        caption =f'Hi {m.from_user.mention(style="md")}!,\nI am Telegram File Stream Bot By @ajmeeraarun with Channel support.\nSend me any file and get a direct download link and streamable link.!',
         reply_markup=buttonz)
 
 
@@ -129,7 +129,7 @@ async def help_handler(bot, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("💁‍♂️ Owner", url="https://t.me/ajmeeraarun")],
-                [InlineKeyboardButton("💥 Source Code", url="https://t.me/sahil_official_here")]
+                [InlineKeyboardButton("💥 Source Code", url="https://t.me/itz_sahil_official")]
             ]
         )
     )
